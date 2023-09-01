@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "aura_and_karma",
+	"version": "${version}",
+	"name": "Aura and Karma",
+	"description": "Aura and Karma introduces new mechanics to change how the player interacts with the world.",
+	"authors": [
+		"MightyPretzelKing"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/aura_and_karma/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pretzel.aura_and_karma.AuraAndKarma"
+		],
+		"client": [
+			"net.pretzel.aura_and_karma.AuraAndKarmaClient"
+		],
+		"fabric-datagen": [
+			"net.pretzel.aura_and_karma.AuraAndKarmaDataGenerator"
+		]
+	},
+	"mixins": [
+		"aura_and_karma.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
