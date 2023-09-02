@@ -14,6 +14,7 @@ import net.minecraft.item.Item;
 public class ModBlocks {
     public static final Block SUNPLATE_BLOCK = registerBlock("sunplate_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    //hmmm
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(AuraAndKarma.MOD_ID, name), block);
