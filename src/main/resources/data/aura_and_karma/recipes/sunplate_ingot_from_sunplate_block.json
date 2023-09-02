@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catagory": "building",
+  "ingredients": [
+    {
+      "item": "aura_and_karma:sunplate_block"
+    }
+  ],
+  "result": {
+    "item": "aura_and_karma:sunplate_ingot",
+    "count": 9
+  }
+}

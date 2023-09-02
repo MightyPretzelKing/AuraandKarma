@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catagory": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "aura_and_karma:sunplate_ingot"
+    }
+  },
+  "result": {
+    "item": "aura_and_karma:sunplate_block"
+  }
+}
