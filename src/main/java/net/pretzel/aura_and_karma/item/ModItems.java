@@ -9,13 +9,17 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.pretzel.aura_and_karma.AuraAndKarma;
 import net.minecraft.item.Item;
+import net.pretzel.aura_and_karma.block.ModBlocks;
 
 public class ModItems {
 
     public static final Item SUNPLATE_INGOT = registerItem("sunplate_ingot", new Item(new FabricItemSettings()));
+    public static final Item STARDUST = registerItem("stardust", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(SUNPLATE_INGOT);
+        entries.add(STARDUST);
+        entries.add(ModBlocks.SUNPLATE_BLOCK);
     }
 
     private static Item registerItem(String name, Item item) {
