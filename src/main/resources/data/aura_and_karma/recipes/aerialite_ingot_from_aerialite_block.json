@@ -3,11 +3,11 @@
   "catagory": "building",
   "ingredients": [
     {
-      "item": "aura_and_karma:sunplate_block"
+      "item": "aura_and_karma:aerialite_block"
     }
   ],
   "result": {
-    "item": "aura_and_karma:sunplate_ingot",
+    "item": "aura_and_karma:aerialite_ingot",
     "count": 9
   }
 }
