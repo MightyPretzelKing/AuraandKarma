@@ -3,7 +3,7 @@
   // If two or more structures in this list can spawn in a biome at a spot, a random one based on weight is chosen to spawn
   "structures": [
     {
-      "structure": "aura_and_karma:myhouse",
+      "structure": "aura_and_karma:color_town",
       "weight": 1
     }
   ],
@@ -12,7 +12,7 @@
     "type": "minecraft:random_spread",
 
     // Make sure this is unique and does not match any other structure set's salt
-    "salt": 1694767084,
+    "salt": 1694767096,
 
     // The average distance apart in chunks for spawn attempts
     "spacing": 12,
