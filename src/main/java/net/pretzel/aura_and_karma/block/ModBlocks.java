@@ -17,7 +17,7 @@ public class ModBlocks {
     public static final Block AERIALITE_BLOCK = registerBlock("aerialite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block AERIALITE_ORE = registerBlock("aerialite_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(30f).resistance(6f), UniformIntProvider.create(4, 8)));
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8), FabricBlockSettings.copyOf(Blocks.STONE).strength(30f).resistance(6f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
