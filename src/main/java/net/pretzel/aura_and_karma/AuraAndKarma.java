@@ -2,6 +2,7 @@ package net.pretzel.aura_and_karma;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.pretzel.aura_and_karma.item.ModItemGroups;
 import net.pretzel.aura_and_karma.item.ModItems;
 import net.pretzel.aura_and_karma.block.ModBlocks;
 import org.slf4j.Logger;
@@ -14,6 +15,7 @@ public class AuraAndKarma implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

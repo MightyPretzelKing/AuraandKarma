@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 3.0,
+  "group": "aerialite_ingot",
+  "ingredient": {
+    "item": "aura_and_karma:raw_aerialite"
+  },
+  "result": "aura_and_karma:aerialite_ingot"
+}

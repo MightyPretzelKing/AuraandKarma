@@ -1,6 +1,10 @@
 {
   "item.aura_and_karma.aerialite_ingot": "Aerialite Ingot",
+  "item.aura_and_karma.raw_aerialite": "Raw Aerialite",
   "item.aura_and_karma.stardust": "Stardust",
 
-  "block.aura_and_karma.aerialite_block": "Block of Aerialite"
+  "block.aura_and_karma.aerialite_block": "Block of Aerialite",
+  "block.aura_and_karma.aerialite_ore": "Aerialite Ore",
+
+  "itemgroup.a_k": "A & K"
 }

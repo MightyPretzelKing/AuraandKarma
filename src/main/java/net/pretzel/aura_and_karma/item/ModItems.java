@@ -15,11 +15,13 @@ public class ModItems {
 
     public static final Item AERIALITE_INGOT = registerItem("aerialite_ingot", new Item(new FabricItemSettings()));
     public static final Item STARDUST = registerItem("stardust", new Item(new FabricItemSettings()));
+    public static final Item RAW_AERIALTE = registerItem("raw_aerialite", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(AERIALITE_INGOT);
         entries.add(STARDUST);
         entries.add(ModBlocks.AERIALITE_BLOCK);
+        entries.add(ModBlocks.AERIALITE_ORE);
     }
 
     private static Item registerItem(String name, Item item) {
